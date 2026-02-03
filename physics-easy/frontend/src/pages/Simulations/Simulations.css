@@ -1,0 +1,36 @@
+.simulations {
+  width: 100%;
+}
+
+.simulations h1 {
+  margin-bottom: 1rem;
+}
+
+.simulations-intro {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  margin-bottom: 2rem;
+}
+
+.simulations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.simulation-card {
+  height: 100%;
+}
+
+.simulation-description {
+  margin-bottom: 1rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+}
+
+.simulation-status {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: #333;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+}

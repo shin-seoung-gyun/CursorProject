@@ -1,0 +1,26 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  margin: 0;
+  background: linear-gradient(135deg, #646cff 0%, #535bf2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.not-found h2 {
+  margin: 1rem 0;
+}
+
+.not-found p {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  margin-bottom: 2rem;
+}

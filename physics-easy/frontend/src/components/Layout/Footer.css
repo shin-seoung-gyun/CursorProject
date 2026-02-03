@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--footer-bg, #1a1a1a);
+  border-top: 1px solid var(--border-color, #333);
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.footer-container p {
+  margin: 0;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  font-size: 0.9rem;
+}

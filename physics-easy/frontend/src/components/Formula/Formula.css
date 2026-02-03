@@ -1,0 +1,9 @@
+.formula {
+  display: inline-block;
+}
+
+.formula-block {
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+.error-boundary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 2rem;
+}
+
+.error-boundary-content {
+  text-align: center;
+  max-width: 500px;
+}
+
+.error-boundary-content h2 {
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,46 @@
+.topics {
+  width: 100%;
+}
+
+.topics h1 {
+  margin-bottom: 1rem;
+}
+
+.topics-intro {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+  margin-bottom: 2rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.topic-card {
+  height: 100%;
+}
+
+.topic-description {
+  margin-bottom: 1rem;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.6));
+}
+
+.topic-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topic-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.topic-list li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #646cff;
+}
